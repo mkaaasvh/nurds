@@ -1,0 +1,77 @@
+.modal {
+  display: none;
+  position: fixed;
+  bottom: auto;
+  top: 10px;
+  right: 240px;
+}
+
+.modal__show {
+  display: block;
+}
+
+.modal__window__container {
+  background-color: #fff;
+  -webkit-box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.4);
+          box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.4);
+  width: 960px;
+  height: 625px;
+  padding: 75px 95px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.modal__title {
+  font-size: 45px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 37px;
+}
+
+.form__row__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.input__title {
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 9px;
+}
+
+.form__input {
+  border-radius: 3px;
+  border: 2px solid #D7DCDE;
+  padding: 16px 16px;
+  width: 360px;
+  margin-bottom: 34px;
+}
+.form__input--textarea {
+  width: 760px;
+  height: 118px;
+  resize: none;
+  margin-bottom: 47px;
+}
+.form__input:hover {
+  border: 2px solid #B4B9BB;
+}
+.form__input:focus {
+  border: 2px solid #000000;
+}
+.form__input:invalid {
+  border: 2px solid #E74246;
+}

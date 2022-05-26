@@ -1,0 +1,45 @@
+$containerWidth:1160px;
+$baseFontSize:16px;
+
+//colors
+$lightRed:#FB565A;
+$darkRed:#E74246;
+$darkerRed:#D7373B;
+$black:#000000;
+$lightGreen:#00CA74;
+$neutralGreen:#00BC6C;
+$darkGreen:#00AA62;
+$lightYellow:#EFC849;
+$neutralYellow:#EAB534;
+$darkYellow:#E5A722;
+$greyWhite:#E1E1E1;
+$formsWhite:#D7DCDE;
+$formsGrey:#B4B9BB;
+$backgroundGrey:#EEEEEE;
+
+//normalize
+@import url("https://necolas.github.io/normalize.css/8.0.1/normalize.css");
+
+//setups
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import "layout";
+
+//components
+@import "components/header.scss";
+@import "components/menu.scss";
+@import "components/hero.scss";
+@import "components/btn.scss";
+@import "components/advantages.scss";
+@import "components/services.scss";
+@import "components/partners.scss";
+@import "components/contacts.scss";
+@import "components/footer.scss";
+@import "components/choice.scss";
+@import "components/products.scss";
+@import "components/price.scss";
+@import "components/grid.scss";
+@import "components/radio.scss";
+@import "components/features.scss";
+@import "components/checkbox.scss";
+@import "components/paginator.scss";
+@import "components/modal.scss";

@@ -1,0 +1,28 @@
+.choice__products__container {
+    display: grid;
+    grid-template-columns: 360px 760px;
+    column-gap: 38px;
+}
+
+.choice__price {
+    margin: 0;
+    padding: 0;
+    border: none;
+    margin-bottom: 55px;
+}
+
+.choice__grid {
+    margin: 0;
+    padding: 0;
+    border: none;
+    margin-bottom: 32px;
+}
+
+.choice__features {
+    margin: 0;
+    padding: 0;
+    border: none;
+    margin-bottom: 47px;
+}
+
+

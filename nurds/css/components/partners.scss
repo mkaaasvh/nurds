@@ -1,0 +1,56 @@
+.partners {
+    height: 202px;
+}
+
+.partners__container {
+    position: relative;
+    height: 262px;
+    margin-left: 10.5%;
+    width: 1195px;
+
+    &::after {
+        content: url("../../img/decor/line.svg");
+        position: absolute;
+        top: 101px;
+        right: 15px;
+    }
+}
+
+.partners__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.partners__item {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-right: 6px;
+
+    &:first-child {
+        margin-left: 51px;
+    }
+
+    &:nth-child(2) {
+        margin-top: -18px;
+        margin-left: -9px;
+    }
+
+    &:last-child {
+        margin-top: -13px;
+    }
+}
+
+.partners__link {
+    margin-right: 50px;
+    opacity: 0.2;
+
+    &:hover {
+        opacity: 1;
+    }
+
+    &:focus {
+        opacity: 0.1;
+    }
+}

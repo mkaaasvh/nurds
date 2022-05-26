@@ -1,0 +1,96 @@
+.services__container {
+    position: relative;
+    height: 518px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: -5px;
+
+    &::after {
+        content: url("../../img/decor/line.svg");
+        position: absolute;
+        bottom: 57px;
+    }
+}
+
+.services__main__info {
+    width: 651px;
+}
+
+.services__title {
+    font-size: 45px;
+    font-weight: 500;
+    color: $black;
+    line-height: 1;
+    margin-bottom: 35px;
+}
+
+.services__description {
+    margin-bottom: 42px;
+}
+
+.services__title__list {
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.services__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.services__item__text {
+    padding-left: 11px;
+}
+
+.services__statistic {
+    margin-top: -33px;
+    width: 360px;
+}
+
+.services__statistics__logo {
+    margin-bottom: 36px;
+}
+
+.services__statistics__desc {
+    padding-left: 18px;
+    font-weight: 700;
+    color: $black;
+    text-transform: uppercase;
+    margin-bottom: 34px;
+}
+
+.services__statistics__list {
+    display: flex;
+}
+
+.services__statistics__item {
+    margin-right: 25px;
+}
+
+.statistics__number {
+    display: flex;
+}
+
+.number {
+    font-size: 45px;
+    font-weight: 700;
+    color: #000;
+}
+
+.percent {
+    font-size: 26px;
+    font-weight: bold;
+    color: #000;
+    padding-top: 3px;
+}
+
+.statistics__desc {
+    color: #283136;
+    width: 10%;
+    line-height: 1;
+    margin-top: 11px;
+
+}

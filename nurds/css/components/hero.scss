@@ -1,0 +1,62 @@
+.hero {
+    background-color: $backgroundGrey;
+}
+
+.hero__one {
+    background: url("../../img/background/phone__slider.png") bottom right 182px no-repeat;
+    background-color: $backgroundGrey;
+    height: 430px;
+    margin-bottom: 55px;
+}
+
+.hero__two {
+    display: none;
+    background: url("../../img/background/nerds-index-slide2.png") bottom right 182px no-repeat;
+    background-color: $backgroundGrey;
+    height: 430px;
+    margin-bottom: 55px;
+}
+
+.hero__three {
+    display: none;
+    background: url("../../img/background//nerds-index-slide3.png") bottom right 182px no-repeat;
+    background-color: $backgroundGrey;
+    height: 430px;
+    margin-bottom: 55px;
+}
+
+.hero__catalog {
+    height: 241px;
+    background-image: none;
+    margin-bottom: 55px;
+}
+
+.hero__container{
+    padding-top: 78px;
+}
+
+.hero__catalog__container {
+    text-align: center;
+    padding-top: 78px;
+    background: none;
+}
+
+.hero__title {
+    font-weight: 500;
+    font-size: 55px;
+    line-height: 1;
+    margin-bottom: 25px;
+    width: 40%;
+    color: #000000;
+}
+
+.hero__title__catalog {
+    width: 100%;
+}
+
+.hero__desc {
+    color: #283136;
+    width: 40%;
+    line-height: 1.5;
+    margin-bottom: 54px;
+}

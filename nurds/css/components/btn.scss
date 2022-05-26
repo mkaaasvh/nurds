@@ -1,0 +1,156 @@
+.btn {
+    font-weight: 500;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    background: $lightRed;
+    border-radius: 3px;
+    padding: 16px 40px;
+
+    &:hover {
+        background-color: $darkRed;
+    }
+
+    &:focus {
+        padding: 15px 40px;
+        background-color: $darkerRed;
+        color: #e37376;
+        border-top: 3px solid #c13235;
+    }
+}
+
+.hero__btn {
+    padding: 16px 54px;
+
+    &:focus {
+        padding: 15px 54px;
+        background-color: $darkerRed;
+        color: #e37376;
+        border-top: 3px solid #c13235;
+    }
+}
+
+.advantages__btn {
+    &--green {
+        background: $lightGreen;
+
+        &:hover {
+            background: $neutralGreen;
+        }
+
+        &:focus {
+            padding: 16px 40px;
+            background: $darkGreen;
+            color: #4cc391;
+            border-top: 3px solid #009958;
+        }
+    }
+
+    &--yellow {
+        background: $lightYellow;
+
+        &:hover {
+            background: $neutralYellow;
+        }
+
+        &:focus {
+            padding: 16px 40px;
+            background: $darkYellow;
+            color: #edc164;
+            border-top: 3px solid #ce961f;
+        }
+    }
+}
+
+.contacts_phone-number__btn {
+    padding: 14px 45px;
+
+    &:focus {
+        padding: 14px 45px;
+        background-color: $darkerRed;
+        color: #e37376;
+        border-top: 3px solid #c13235;
+    }
+}
+
+.choice__btn {
+    border: none;
+    background-color: #EEEEEE;
+    color: #000000;
+    padding: 16px 88px;
+    cursor: pointer;
+    margin-top: -11px;
+
+    &:hover {
+        background-color: #DFDFDF;
+    }
+
+    &:focus {
+        padding: 15px 88px;
+        background-color:#D5D5D5;
+        color: #959595;
+        border-top: 3px solid #c0c0c0;
+    }
+}
+
+.btn__products__price {
+    padding: 14px 75px;
+
+    &:focus {
+        padding: 14px 75px;
+    }
+}
+
+.btn__send {
+    border: none;
+    cursor: pointer;
+    padding: 16px 83px;
+
+    &:focus {
+        padding: 13px 80px;
+        background-color: $darkerRed;
+        color: #e37376;
+        border-top: 3px solid #c13235;
+    }
+}
+
+.btn__close {
+    position: absolute;
+    top: 95px;
+    right: 38px;
+    width: 21px;
+    height: 21px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+
+    &:hover {
+        opacity: 0.3;
+        background-color: transparent;
+    }
+
+    &:focus {
+        opacity: 0.1;
+        background-color: transparent;
+        border: none;
+    }
+
+
+    &::after,
+    &::before {
+        content: "";
+        position: absolute;
+        top: 10px;
+        left: 2px;
+        width: 21px;
+        height: 3px;
+        background-color: #FB565A;
+    }
+
+    &::before {
+        transform: rotate(45deg);
+    }
+
+    &::after {
+        transform: rotate(-45deg);
+    }
+}

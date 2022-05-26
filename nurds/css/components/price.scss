@@ -1,0 +1,75 @@
+.price__title {
+    font-weight: 700;
+    font-size: 18px;
+    color: $black;
+    text-transform: uppercase;
+}
+
+.price__filter {
+    width: 260px;
+    margin-top: 49px;
+}
+
+.price__controls {
+    position: relative;
+    height: 80px;
+    margin-bottom: 14px;
+    padding-top: 40px;
+    padding-right: 23px;
+    padding-left: 23px;
+    background-color: #EEEEEE;
+    border-radius: 5px;
+}
+
+.price__controls .scale {
+    height: 2px;
+    background: $formsWhite;
+}
+
+.price__controls .bar {
+    width: 70%;
+    height: 2px;
+    background: $lightGreen;
+}
+
+.price__controls .toggle {
+    position: absolute;
+    top: 31px;
+    left: 0;
+    background-color: #ABABAB;
+    width: 4px;
+    height: 4px;
+    padding: 2px;
+    border-radius: 50%;
+    border: 8px solid #fff;
+    box-shadow: 0 2px 1px 0 #cfcfcf;
+    cursor: pointer;
+}
+
+.price__controls .toggle__min {
+    left: 18px;
+}
+
+.price__controls .toggle__max {
+    left: 160px;
+}
+
+.price__min__max {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price__min__max label {
+    text-transform: uppercase;
+}
+
+.price__min__max input{
+    width: 80px;
+    padding: 10px;
+    margin-left: 10px;
+    text-align: center;
+    color: #283136;
+    border: none;
+    border-radius: 5px;
+    background: #EEEEEE;
+}
